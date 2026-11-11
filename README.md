@@ -45,6 +45,8 @@ The bot **polls** the mailbox (default every 120 s), answers mail from addresses
 same thread, marking handled mail as read. It answers people who write to it; it doesn't sit in your personal inbox or
 send unprompted mail. Image attachments work, so you can email photos to post on Instagram, then reply `/confirm`.
 
+**Note** If you're running the agent on your local machine, antivirus software may block nodejs from polling imap servers, like Gmail. If it happens, you'll see an error, when starting the agent. In that scenario you can disable it for a specific domain, e.g. imap.gmail.com.
+
 **Gmail (or any IMAP/SMTP mailbox).** Create a *dedicated* account, turn on 2-Step Verification. For Gmail follow the steps below:
 1. Generate a **App Password**
 2. Open Google Account Security. 
