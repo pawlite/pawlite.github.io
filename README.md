@@ -1,6 +1,4 @@
-# pawlite/**agent**
-
-
+![pawlite autonomous AI agent](_pawlite.png)
 
 [Link to the PawLite GitHub Repository](https://github.com/pawlite/pawlite)
 
