@@ -1,9 +1,5 @@
-![pawlite autonomous AI agent](akitatop.png)\
-Private, lean and fast,\
-Tasks through every channel flow,\
-Pure efficiency.
+![pawlite autonomous AI agent](akitaheader.png)\
 
-\
 [Link to the PawLite GitHub Repository](https://github.com/pawlite/pawlite)
 
 Tired of the security, performance and token cost issues that come with most autonomous agents, I created [PawLite](http://www.github.com/pawlite/pawlite). It is a locally-run, llama.cpp-compatible companion designed to work with models of all sizes (7B–120B). Pawlite aims to bridge the gap between AI hype and practical reality, serving as a seamless assistant through this technological singularity era.
