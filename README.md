@@ -1,4 +1,4 @@
-![pawlite autonomous AI agent](akitatop.png)
+![pawlite autonomous AI agent](akitaheader.png)
 
 [Link to the PawLite GitHub Repository](https://github.com/pawlite/pawlite)
 
