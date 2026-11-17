@@ -2,7 +2,6 @@
 
 [Link to the PawLite GitHub Repository](https://github.com/pawlite/pawlite)
 
-
 Tired of the security, performance and token cost issues that come with most autonomous agents, I created PawLite. It is a locally-run, llama.cpp-compatible companion designed to work with models of all sizes (7B–120B). Pawlite aims to bridge the gap between AI hype and practical reality, serving as a seamless assistant through this technological singularity era.
 
 PawLite is a lightweight autonomous AI agent built to combat the financial, context, and tool bloat found in assistants/agents like OpenClaw and Hermes. **WhatsApp + Telegram + Email ⇄ SQLite ⇄ your local llama.cpp server**, with
@@ -227,7 +226,7 @@ Docker, open the terminal chat inside the container instead of on the host, so b
 filesystem:
 
 ```bash
-docker compose exec llamaclaw npx tsx src/cli.ts
+docker compose exec pawlite npx tsx src/cli.ts
 ```
 
 The container runs hardened (`docker-compose.yml`): non-root user, read-only filesystem (only `/data` and a `/tmp` tmpfs are
@@ -281,7 +280,6 @@ Data (auth, DB, memory, images) lives in `./data`. Point your tunnel at `http://
 - Next release will focus on refactoring and improving  what is already there. Follow the [PawLite GitHub Repository](https://github.com/pawlite/pawlite) for further updates.
 
 ## License & Author
-
 
 Distributed under [MIT](LICENSE.txt) license.
 
